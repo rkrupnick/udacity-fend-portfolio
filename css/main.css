@@ -11,6 +11,24 @@
 
 /*
  *
+ * Fonts
+ *
+ */
+
+ h1, h3, h4, a {
+  color: #0b3c5d;
+ }
+
+ h2 {
+  color: #d9b310;
+ }
+
+a {
+  font-size: .9em;
+}
+
+/*
+ *
  * Header
  *
  */
@@ -20,6 +38,8 @@
   padding: 10px 0;
  }
 
+
+
  /*
  *
  * Hero
@@ -27,7 +47,7 @@
  */
 
  .hero {
-  padding: 10px 0;
+  padding: 20px 0;
  }
 
   /*
@@ -35,3 +55,18 @@
  * Featured Items
  *
  */
+
+.featured-items {
+  padding-bottom: 20px;
+}
+
+.featured-item {
+  padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 700px) {
+  .logo {
+    display: none;
+  }
+}
