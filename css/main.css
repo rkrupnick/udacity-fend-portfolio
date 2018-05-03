@@ -15,7 +15,10 @@
  *
  */
 
- h1, h3, h4, a {
+ h1,
+ h3,
+ h4,
+ a {
   color: #0b3c5d;
   font-family: 'Raleway', sans-serif;
  }
@@ -24,9 +27,13 @@
   color: #d9b310;
  }
 
-a {
+ a {
   font-size: .9em;
-}
+ }
+
+ p {
+  font-size: .7em;
+ }
 
 /*
  *
@@ -57,22 +64,10 @@ a {
  *
  */
 
-.featured-items {
+ .featured-items {
   padding-bottom: 20px;
-}
+ }
 
-.featured-item {
+ .featured-item {
   padding-bottom: 20px;
-}
-
-/*
- *
- * Media Query
- *
- */
-
-@media only screen and (max-width: 700px) {
-  .logo {
-    display: none;
-  }
-}
+ }
